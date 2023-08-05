@@ -1,0 +1,74 @@
+.project-contanier {
+  margin-top: 7em;
+}
+.project-contanier h1 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.project-contanier .projects {
+  width: 100%;
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2em;
+  row-gap: 2em;
+  text-align: center;
+}
+.single-project {
+  border: 1px solid var(--box-color);
+  border-collapse: collapse;
+  flex-wrap: wrap;
+  width: 30%;
+  min-width: 200px;
+}
+
+.thumbnail {
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s all ease-in-out;
+  font-family: "Rubik Pixels", cursive;
+}
+.thumbnail img {
+  max-width: 100%;
+}
+
+.thumbnail:hover {
+  color: var(--first-color);
+}
+
+.single-project > p:nth-child(1),
+h3 {
+  border: 1px solid var(--box-color);
+}
+.single-project img {
+  border: 1px solid var(--box-color);
+}
+
+.discri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.discri button {
+  width: 100px;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 850px) {
+  .single-project {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .single-project {
+    width: 100%;
+  }
+}

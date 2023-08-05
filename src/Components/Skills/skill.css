@@ -1,0 +1,154 @@
+.project-contanier {
+  margin-bottom: 5em;
+}
+
+.skills-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 5em;
+}
+.skill-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.single-skill {
+  width: 120px;
+  border: 1px solid var(--box-color);
+}
+.single-skill p {
+  padding: 0.5em;
+}
+
+.skill-icons {
+  position: relative;
+
+  min-height: 250px;
+}
+.icons {
+  position: absolute;
+  font-size: 3rem;
+}
+
+#icon1 {
+  color: #007acc;
+  right: 20%;
+  bottom: 12%;
+}
+
+#icon2 {
+  left: 25%;
+  bottom: 20%;
+  color: yellow;
+}
+
+#icon3 {
+  color: #42b883;
+  bottom: 49%;
+  right: 12%;
+}
+#icon6 {
+  color: #61dafb;
+  bottom: 9%;
+  right: 50%;
+  top: 14%;
+}
+#icon5 {
+  left: 4%;
+  color: #264de4;
+
+  top: 53%;
+}
+#icon10 {
+  left: 50%;
+  bottom: 0%;
+
+  color: #3c873a;
+}
+#icon7 {
+  color: #0078d7;
+  right: 50%;
+  top: 53%;
+}
+#icon8 {
+  color: #f34f29;
+  right: 30%;
+  top: 43%;
+}
+
+#icon11 {
+  color: #848484;
+
+  right: 30%;
+  top: 10%;
+}
+
+#icon4 {
+  color: #e34c26;
+  left: 10%;
+  bottom: 1%;
+}
+#icon9 {
+  color: #ef5b25;
+  right: 1%;
+  bottom: 1%;
+}
+#icon12 {
+  left: 14%;
+  bottom: 19%;
+  color: #0cd45b;
+  right: 30%;
+  top: 23%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .skills-container .skills-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .skill-list {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .skill-list {
+    align-items: center;
+    justify-content: center;
+  }
+  .single-skill {
+    width: 40%;
+  }
+  .skill-sub-container {
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .icons {
+    position: static;
+  }
+  .skill-icons {
+    margin-top: 2em;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .single-skill {
+    width: 100%;
+  }
+}

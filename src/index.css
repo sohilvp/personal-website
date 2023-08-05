@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+
+:root {
+  --background: linear-gradient(0deg, #282c33, #282c33),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  --first-color: #c778dd;
+  --box-color: #abb2bf;
+  --font-color: #ffffff;
+  --p-font: #abb2bf;
+  --footer-color: #242424;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+  background: var(--background);
+  color: var(--p-font);
+  font-family: "Fira Code", monospace;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+span {
+  color: var(--first-color);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+  padding: 0.5em 1em;
+  border: 1px solid var(--first-color);
+  background: none;
+  outline: none;
+  color: var(--p-font);
+  font-family: "Fira Code", monospace;
+}
+
+button:hover {
+  color: var(--first-color);
+  transform: scale(1.05);
+}
+img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 830px) {
+  .container {
+    width: 85%;
+  }
+}

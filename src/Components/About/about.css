@@ -1,0 +1,40 @@
+.about-title-container h1 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  gap: 2em;
+}
+
+.about-left {
+  flex: 1;
+  padding-left: 3em;
+}
+.about-left p {
+  font-size: 1.1rem;
+}
+.about-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 760px) {
+  .about-container {
+    flex-flow: column-reverse;
+  }
+  .about-left {
+    padding-left: 0em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-left p {
+    font-size: 1rem;
+  }
+}
