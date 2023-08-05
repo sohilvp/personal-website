@@ -1,8 +1,8 @@
-import coinmarket from './passet/coinmarket.png'
-import loopstudio from './passet/loopstudio.png'
-import todo from './passet/todo.png'
-import memoir from './passet/memoir.jpg'
-import newtodo from './passet/my todo new.jpg'
+import coinmarket from './asset/coinmarket.png'
+import loopstudio from './asset/loopstudio.png'
+import todo from './asset/todo.png'
+import memoir from './asset/memoir.jpg'
+import newtodo from './asset/my todo new.jpg'
 
 const proDta =[
     {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
-import heroimg from '../../passet/Group 46.png'
-import colorp from '../../passet/Rectangle 27.png'
+import heroimg from '../../asset/Group 46.png'
+import colorp from '../../asset/Rectangle 27.png'
 
 const Hero = () => {
   return (

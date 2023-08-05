@@ -2,7 +2,7 @@ import React from 'react'
 import {FaRegCopyright} from 'react-icons/fa'
 import {FiGithub} from 'react-icons/fi'
 import {TfiLinkedin} from 'react-icons/tfi'
-import footlogo from '../../passet/StyleOutline.svg'
+import footlogo from '../../asset/StyleOutline.svg'
 import './footer.css'
 const Footer = () => {
   return (

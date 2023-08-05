@@ -1,6 +1,6 @@
 import React from 'react'
 import {FiMail,FiGithub} from 'react-icons/fi'
-import frame from '../../passet/Group 36.png'
+import frame from '../../asset/Group 36.png'
 import {TfiLinkedin} from 'react-icons/tfi'
 import './contact.css'
 const Contact = () => {

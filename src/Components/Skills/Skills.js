@@ -1,6 +1,6 @@
 import React from 'react'
 import './skill.css'
-import skillimg from '../../passet/Group 36.png'
+import skillimg from '../../asset/Group 36.png'
 import { skills } from '../../projectData'
 import {SiTypescript,SiJavascript,SiExpress,SiHtml5,SiCss3,SiReact,SiGit,SiPostman,SiNodedotjs,SiGithub,SiMongodb} from 'react-icons/si'
 import {TbBrandVscode} from 'react-icons/tb'
