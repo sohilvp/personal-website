@@ -3,6 +3,7 @@ import loopstudio from './asset/loopstudio.png'
 import todo from './asset/todo.png'
 import memoir from './asset/memoir.jpg'
 import newtodo from './asset/my todo new.jpg'
+import wordfinder from './asset/word-finder.jpg'
 
 const proDta =[
     {
@@ -36,9 +37,16 @@ const proDta =[
         used:"HTML CSS React.js",
         discription:"simple responsive landing page created by React js ",
         link:"https://loopstudiovirtual.netlify.app"
+    },{
+        id:5,
+        image:wordfinder,
+        title:"Word finder",
+        used:"React.js",
+        discription:"A dictionary website created by React js ",
+        link:"https://mywordfinder.netlify.app/",
     },
     {
-        id:5,
+        id:6,
         image:todo,
         title:"Todo App",
         used:"HTML CSS React.js",
