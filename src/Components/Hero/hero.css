@@ -5,7 +5,8 @@
   gap: 1em;
 }
 .hero-image{
-  min-height: 400px;
+  min-width:420px;
+  min-height: 440px;
 }
 .hero-text {
   margin-top: 6em;
