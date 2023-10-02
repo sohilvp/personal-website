@@ -7,7 +7,6 @@ import {motion} from 'framer-motion'
 const Hero = () => {
   return (
     <div className='hero-container' id='home'>
-      {heroimg &&<div>
       <div className="hero-text">
         <motion.h1
         initial={{opacity:0,x:-50}}
@@ -30,9 +29,8 @@ const Hero = () => {
           <p><img  src={colorp} alt="" />  currently working on E-com website</p>
         </div>
       </motion.div>
-</div>}
+
     </div>
-  
   )
 }
 
