@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <motion.div initial={{opacity:0,y:70}}
         animate={{opacity:1,y:0}}
-        transition={{duration:1}} className="hero-image">
+        transition={{duration:1, delay:0.1}} className="hero-image">
         <img src={heroimg} alt="" />
         <div className="current-work">
           <p><img  src={colorp} alt="" />  currently working on E-com website</p>
