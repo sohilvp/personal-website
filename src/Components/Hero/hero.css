@@ -4,7 +4,9 @@
   padding-top: 3em;
   gap: 1em;
 }
-
+.hero-image{
+  min-height: 400px;
+}
 .hero-text {
   margin-top: 6em;
 }
