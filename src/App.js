@@ -20,6 +20,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
+      
     </div>
   );
 }
