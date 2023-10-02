@@ -2,23 +2,33 @@ import React from 'react'
 import './hero.css'
 import heroimg from '../../asset/Group 46.png'
 import colorp from '../../asset/Rectangle 27.png'
+import {motion} from 'framer-motion'
 
 const Hero = () => {
   return (
     <div className='hero-container' id='home'>
       <div className="hero-text">
-        <h1>
+        <motion.h1
+        initial={{opacity:0,x:-50}}
+        animate={{opacity:1,x:0}}
+        transition={{delay:0.05,duration:.5}}
+        >
           i'm a <span> web designer</span> and <span>front-end developer</span>
-        </h1>
-        <p>i crafts responsive websites where technologies meet creativity</p>
-        <button className='button button-hero'><a href="https://linkedin.com/in/sohilvp" target='_blank' rel='noreferrer'>Contact-me</a></button>
+        </motion.h1>
+        <motion.p initial={{opacity:0,x:-50}}
+        animate={{opacity:1,x:0}}
+        transition={{delay:0.10,duration:1}}>i crafts responsive websites where technologies meet creativity</motion.p>
+        <motion.button  initial={{opacity:0}}
+        animate={{opacity:1}} transition={{delay:.7,duration:.5}} className='button button-hero'><a href="https://linkedin.com/in/sohilvp" target='_blank' rel='noreferrer'>Contact-me</a></motion.button>
       </div>
-      <div className="hero-image">
+      <motion.div initial={{opacity:0,y:70}}
+        animate={{opacity:1,y:0}}
+        transition={{duration:1}} className="hero-image">
         <img src={heroimg} alt="" />
         <div className="current-work">
-          <p><img src={colorp} alt="" />  currently working on E-com website</p>
+          <p><img  src={colorp} alt="" />  currently working on E-com website</p>
         </div>
-      </div>
+      </motion.div>
 
     </div>
   )

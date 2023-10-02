@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from 'framer-motion'
 import {IoCloseSharp} from 'react-icons/io5'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import './navbar.css'
@@ -8,7 +9,8 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <div className='nav-container'>
-      <div className="logo">dev.SOH<span>I</span>L</div>
+      <motion.div initial={{opacity:0,y:-150}}
+        animate={{opacity:1,y:0}}  transition={{delay:0.4}} className="logo">dev.SOH<span>I</span>L</motion.div>
       
       <div className="nav-link-container">
       <span className=" toggle">
@@ -19,13 +21,17 @@ const Navbar = () => {
           )}
         </span>
       <div className={menu ? "mobile_links" : 'nav-links'}>
-        <ul>
+        <motion.ul
+        initial={{opacity:0,y:-150}}
+        animate={{opacity:1,y:0}}
+        transition={{delay:.7}}
+        >
           <li onClick={()=>setMenu(false)}><span>#</span><a href="#home">home</a></li>
           <li onClick={()=>setMenu(false)}><span>#</span><a href="#project">Project</a></li>
           <li onClick={()=>setMenu(false)}><span>#</span><a href="#skills">Skills</a></li>
           <li onClick={()=>setMenu(false)}><span>#</span><a href="#about">About-me</a></li>
           <li onClick={()=>setMenu(false)}><span>#</span><a href="#contact">Contact</a></li>
-        </ul>
+        </motion.ul>
       </div>
       </div>
     </div>
