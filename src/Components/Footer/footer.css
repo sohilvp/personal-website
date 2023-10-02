@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1rem;
 }
 .footer-container .footer-left img {
   width: 35px;
