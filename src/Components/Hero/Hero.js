@@ -11,15 +11,15 @@ const Hero = () => {
         <motion.h1
         initial={{opacity:0,x:-50}}
         animate={{opacity:1,x:0}}
-        transition={{delay:0.05,duration:.5}}
+        transition={{delay:0.05,duration:.8}}
         >
           i'm a <span> web designer</span> and <span>front-end developer</span>
         </motion.h1>
         <motion.p initial={{opacity:0,x:-50}}
         animate={{opacity:1,x:0}}
-        transition={{delay:0.10,duration:1}}>i crafts responsive websites where technologies meet creativity</motion.p>
+        transition={{delay:0.9,duration:1}}>i crafts responsive websites where technologies meet creativity</motion.p>
         <motion.button  initial={{opacity:0}}
-        animate={{opacity:1}} transition={{delay:.7,duration:.5}} className='button button-hero'><a href="https://linkedin.com/in/sohilvp" target='_blank' rel='noreferrer'>Contact-me</a></motion.button>
+        animate={{opacity:1}} transition={{delay:.95 ,duration:.5}} className='button button-hero'><a href="https://linkedin.com/in/sohilvp" target='_blank' rel='noreferrer'>Contact-me</a></motion.button>
       </div>
       <motion.div initial={{opacity:0,y:70}}
         animate={{opacity:1,y:0}}
