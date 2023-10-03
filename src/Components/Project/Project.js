@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <React.Fragment>
     <div className='project-contanier'id='project'>
-      <h1><span>#</span>Project</h1>
+      <h1><span>#</span>Projects</h1>
     
     <div className='projects'>
     {proDta.map((item)=>{
