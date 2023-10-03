@@ -32,7 +32,7 @@
   justify-content: center;
   transition: 0.5s all ease-in-out;
   font-family: "Rubik Pixels", cursive;
-  min-height: 240px;
+  height: min(240px, min-content);
 }
 .thumbnail img {
   max-width: 100%;
@@ -72,5 +72,8 @@ h3 {
 @media only screen and (max-width: 760px) {
   .single-project {
     width: 100%;
+  }
+  .project-contanier {
+    margin-top: 3em;
   }
 }
