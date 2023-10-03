@@ -1,9 +1,9 @@
-import coinmarket from './asset/coinmarket.png'
-import loopstudio from './asset/loopstudio.png'
-import todo from './asset/todo.png'
-import memoir from './asset/memoir.jpg'
-import newtodo from './asset/my todo new.jpg'
-import wordfinder from './asset/word-finder.jpg'
+import coinmarket from './asset/coinmarket.webp'
+import loopstudio from './asset/loopstudio.webp'
+import todo from './asset/todo.webp'
+import memoir from './asset/memoir.webp'
+import newtodo from './asset/my todo new.webp'
+import wordfinder from './asset/word-finder.webp'
 
 const proDta =[
     {

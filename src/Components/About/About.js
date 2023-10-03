@@ -1,5 +1,5 @@
 import React from 'react'
-import myimg from '../../asset/Group 50.png'
+import myimg from '../../asset/Group 50.webp'
 import './about.css'
 const About = () => {
   return (
