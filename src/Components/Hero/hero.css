@@ -102,6 +102,10 @@
   .hero-text {
     margin-top: 3em;
   }
+  .hero-image{
+    min-width: auto;
+    min-height: 150px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -112,9 +116,7 @@
 
 
 @media only screen and (max-width: 430px) {
-  .hero-image{
-    min-height: 150px;
-  }
+  
   .hero-text {
     margin-top: 1.5em;
   }
