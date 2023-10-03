@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-import heroimg from '../../asset/Group 46.png'
+import heroimg from '../../asset/Group 46.webp'
 import colorp from '../../asset/Rectangle 27.png'
 import {motion} from 'framer-motion'
 

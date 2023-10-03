@@ -110,6 +110,9 @@
 }
 
 @media only screen and (max-width: 430px) {
+  .hero-image{
+    min-height: 150px;
+  }
   .hero-text {
     margin-top: 1.5em;
   }
